@@ -1,6 +1,6 @@
 import re
 from langchain_core.tools import tool
-from langchain_community.tools import DuckDuckGoSearchResults
+from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
 from langchain_ollama import ChatOllama
@@ -85,7 +85,7 @@ def chromadb_search(query: str) -> str:
 @tool
 def duckduckgo_search(query: str) -> str:
     """Search the web for current or general information."""
-    return DuckDuckGoSearchResults().run(query)
+    return DuckDuckGoSearchRun().run(query)
 
 # --- Agent ---
 

@@ -5,8 +5,8 @@ from langchain_ollama import OllamaEmbeddings
 
 # Load documents
 loaders = [
-    PyPDFLoader("./administrative_doc.pdf"),
-    TextLoader("./NCBKSAJE.txt"),
+    PyPDFLoader("your_pdf_document.pdf"),
+    TextLoader("your_text_file.txt"),
 ]
 docs = []
 for loader in loaders:
