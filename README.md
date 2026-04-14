@@ -1,3 +1,19 @@
+---
+title: RAG Agent
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.41.0"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
+
+# RAG Agent
+My local document search agent!
+
+
 # SafeRAG — Local AI Agent with ChromaDB + DuckDuckGo
 
 A local AI agent built with LangChain and LangGraph that answers questions from your own ingested documents (PDFs, text files) or searches the web via DuckDuckGo. Runs fully offline using Ollama. Includes a Gradio web UI.
