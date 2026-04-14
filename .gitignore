@@ -1,0 +1,16 @@
+# ChromaDB persistent storage
+chroma_db/
+
+# Sample documents (add your own)
+*.pdf
+*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+.venv/
